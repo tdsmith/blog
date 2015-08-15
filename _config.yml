@@ -1,0 +1,67 @@
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.tim-smith.us" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+theme:
+  title: Biotimylated
+  gravatar: d2924b4279838986048c7a7d52707d18
+  description: Tim D. Smith's blog
+
+  header_text:
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+
+  # Icons
+  rss: true
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: tdsmith
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: biotimylated
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: UA-6770445-3
+  disqus_shortname: biotimylations
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 7
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
