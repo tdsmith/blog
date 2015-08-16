@@ -4,7 +4,7 @@ status: publish
 title: SDSC Summer Institute Wrapup
 ---
 
-![Tim and Gordon](/img/supercomputer_selfie.jpeg){: style="float: right"} What would you do with 2 petaflops of processing power? It's not an idle question: NSF's [XSEDE infrastructure](https://www.xsede.org/) offers researchers access to large-scale computing infrastructure. I spent the last week at the [San Diego Supercomputer Center](https://www.sdsc.edu), which hosts an annual [Summer Institute](http://www.sdsc.edu/events/summerinstitute/) to introduce scientists from many disciplines to high-performance computing technologies. Tissue engineering doesn't have a lot of petascale problems but I did learn a lot about tools that can help me write more performant code on single and multi-processor systems—even in Python, my favorite programming language. ~And~ I got to take a selfie with a supercomputer.
+![Tim and Gordon](/img/supercomputer_selfie.jpeg){: style="float: right"} What would you do with 2 petaflops of processing power? It's not an idle question: NSF's [XSEDE infrastructure](https://www.xsede.org/) offers researchers access to large-scale computing resources. I spent the last week at the [San Diego Supercomputer Center](https://www.sdsc.edu), which hosts an annual [Summer Institute](http://www.sdsc.edu/events/summerinstitute/) to introduce scientists from many disciplines to high-performance computing technologies. Tissue engineering doesn't have a lot of petascale problems but I did learn a lot about tools that can help me write more performant code on single and multi-processor systems—even in Python, my favorite programming language. ~And~ I got to take a selfie with a supercomputer.
 
 ## Faster Python code
 
