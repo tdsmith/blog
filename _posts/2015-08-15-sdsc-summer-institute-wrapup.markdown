@@ -74,7 +74,7 @@ x = af.randu(500000, 1)
 {% endhighlight %}
 </blockquote>
 
-Running on the GPU is slower than the numba implementation version for n < about 500,000, but is faster after that. I'll look forward to learning which problems can be solved faster on a GPU and how to implement them optimally.
+Running on the GPU is slower than the numba version for n < about 500,000, but is faster after that. I'll look forward to learning which problems can be solved faster on a GPU and how to implement them optimally.
 
 ## Scaling up, scaling out
 
