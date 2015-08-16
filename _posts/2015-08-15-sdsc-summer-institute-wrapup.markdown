@@ -97,3 +97,5 @@ Comet, Gordon, and other XSEDE facilities are available through a (somewhat) com
 [UC Irvine's facilities](http://hpc.oit.uci.edu/), where I will actually be working, are modest in comparison but still very powerful. Irvine has a small dedicated HPC cluster available to the campus, with 576 cores in 9 nodes available for general use, and another 5,952 cores in 93 condo nodes which are, generously, [available to the community for free](http://hpc.oit.uci.edu/free-queue) when they aren't being used by their owners.
 
 The Summer Institute was a great opportunity to learn from world-class HPC experts and get my hands dirty with some multiprocessing code. If you're curious about anything I touched on, the [slide decks and example code](https://github.com/sdsc/sdsc-summer-institute-2015) from this year's session are available on Github.
+
+<iframe width="400" height="80" src="https://rd.io/i/QVlL5DdBwXM/" frameborder="0"></iframe>
