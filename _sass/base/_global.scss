@@ -42,7 +42,9 @@ h4 {
 }
 blockquote {
     border-left: 2px solid;
-    padding: 1em 1em;
+    // padding: 1em 1em;
+    margin-left: 3em;
+    padding-left: 1em;
 }
 blockquote p:last-child,
 footer p:last-child {
@@ -65,7 +67,6 @@ th {
 }
 table,
 dl,
-blockquote,
 code,
 kbd,
 pre,
