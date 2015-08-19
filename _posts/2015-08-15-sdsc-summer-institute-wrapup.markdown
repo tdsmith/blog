@@ -50,7 +50,7 @@ slow | 1.44 ms
 vectorized | 7.79 µs
 jitted | 4.83 µs
 
-The vectorized numpy implementation is 70x faster than the naïve slow implementation, but the jitted version of the naïve implementation is even slightly faster than the numpy version, with no extra work!
+The vectorized numpy implementation is 180x faster than the naïve slow implementation, but the jitted version of the naïve implementation is even slightly faster than the numpy version, with no extra work!
 
 To use numba you need to have llvm and llvmlite installed; on Homebrew, all you have to do is `brew install homebrew/python/numba`. Continuum Analytics also provides a conda package.
 
