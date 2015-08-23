@@ -1,7 +1,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.tim-smith.us" # the base hostname & protocol for your site
 
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:title/
 
 theme:
   title: Biotimylated
