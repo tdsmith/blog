@@ -14,7 +14,7 @@ To reconstitute your Python environment, consider running `pip3 freeze > site-re
 
 (If you forget to do this before you upgrade, you can run `$(brew --cellar)/python3/3.4.3_2/bin/python3 -m pip freeze` to generate the list of packages 3.4 knows about, even after 3.5 is installed.)
 
-## Homebrew packages built with --with-python3 will break
+## Homebrew packages built with `--with-python3` will break
 
 Homebrew will take care of rebuilding the relatively few Homebrew packages which have mandatory or recommended dependencies on `"python3"` or `:python3`. If you are only using these packages, you won't need to do anything. (The complete list of those packages is: circlator, gubbins, iva, keepassc, lensfun, libsigrokdecode, mypy, pastebinit, ponysay, pulseview, py3cairo, pymummer, pyqt5, retext, and xonsh.)
 
