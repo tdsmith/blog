@@ -30,6 +30,10 @@ Life on the bleeding edge isn't for everyone. If you would prefer to continue us
 
 I prefer not to accept Python versions into homebrew-versions because of the relatively high maintenance load, but [starting a tap](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/How-to-Create-and-Maintain-a-Tap.md) (Homebrew's term for an alternative formula repository) is easy to do if you'd like to maintain a python34 formula yourself (or a suite of similar formulas, like Felix Krull's [deadsnakes](https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes) PPA for Ubuntu). I would owe you a beer. :)
 
+## Migrating early
+
+If you would like to transition to Python 3.5 before its official release, you can run `brew install python3 --devel` to install the release candidate. After 3.5 final is released, a normal `brew update && brew upgrade` will upgrade you to the release version. Anything that works with a pre-release version of 3.5 should continue working with a release version of 3.5.
+
 ## Questions
 
 If you need help, please feel free to reach out on Homebrew's Github issue tracker or the mailing list (homebrew@librelist.com). Thanks for your patience!
