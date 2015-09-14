@@ -10,7 +10,7 @@ Python 3.5 is [scheduled to be released](https://www.python.org/dev/peps/pep-047
 
 Python packages which were installed against Python 3.4 with pip or easy\_install will need to be reinstalled for Python 3.5. Packages installed against Python 3.4 will not be visible from Python 3.5 because Python uses versioned site-packages directories. Scripts (i.e. `ipython3`) which were installed with pip or easy\_install using Python 3.4 will stop working until they are reinstalled.
 
-To reconstitute your Python environment, consider running `pip3 freeze > site-requirements.txt` before you upgrade to save a list of your installed packages. You should edit this list by hand to remove any packages which are managed by Homebrew. Then, you can run `pip3 -r site-requirements.txt` after you upgrade to reinstall your environment.
+To reconstitute your Python environment, consider running `pip3 freeze > site-requirements.txt` before you upgrade to save a list of your installed packages. You should edit this list by hand to remove any packages which are managed by Homebrew. Then, you can run `pip3 install -r site-requirements.txt` after you upgrade to reinstall your environment.
 
 (If you forget to do this before you upgrade, you can run `$(brew --cellar)/python3/3.4.3_2/bin/python3 -m pip freeze` to generate the list of packages 3.4 knows about, even after 3.5 is installed.)
 
