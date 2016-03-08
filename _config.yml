@@ -3,6 +3,8 @@ url: "http://blog.tim-smith.us" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:title/
 
+gems: [jekyll-paginate, jekyll-gist]
+
 theme:
   title: Biotimylated
   gravatar: d2924b4279838986048c7a7d52707d18
@@ -60,8 +62,6 @@ paginate: 7
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
-markdown: kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
