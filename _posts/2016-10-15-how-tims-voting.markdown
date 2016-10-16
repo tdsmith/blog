@@ -62,7 +62,7 @@ Nobody seems to have a beef with the incumbents. Has controversy ever visited th
 * Katherine Daigle; perennial candidate, no website, LinkedIn still says she's running for Assembly. (Daigle was running for 74th AD as a Republican until she lost the primary.)
 * Gang Chen; some [skinny nerd](http://www.gangchenusa.com/), no government experience, has lots of yard signs. [Questionable 1st Amendment credentials](http://www.theliberaloc.com/2016/08/25/irvines-gang-chen-files-fppc-complaint-against-theliberaloc-and-irvine-community-news-views/). Doing lots of outreach to the Chinese community. Running as a center-right candidate. Wildly attacking Gaido as "too radical" and Wagner as "a career politician". Did a bunch of [stupid saber-rattling](http://www.ocregister.com/articles/recall-712641-park-great.html) about a recall effort in the spring.
 * David Chey; [oh my god](http://www.latimes.com/socal/coastline-pilot/opinion/tn-cpt-me-panhandler-hansen-20160714-16-story.html), how did he even get on the ballot
-* Mary Ann Gaido; council member 1976 - 1984, Democrat. Lost narrowly to Steven Choi in 2014. Really awful logo. Sierra Club endorsement.
+* Mary Ann Gaido; [website](https://maryanngaido.com/), council member 1976 - 1984, Democrat. Lost narrowly to Steven Choi in 2014. Really awful logo. Sierra Club endorsement.
 
 I'm skeptical about all of these candidates. I do not understand the hysteria about growth and traffic that seems to be sweeping Irvine. The traffic's fine. Growth can be healthy.
 
@@ -93,7 +93,7 @@ Vote for no more than 2 of:
 * Hyunjoung "Genii" Ahn
 * Anila Ali
 * Dale Cheema
-* Melissa Fox; Democratic Foundation endorsement. I've spoken to her when she hosted an event in Uni Hills a couple years ago and I was impressed by her knowledge of Irvine's history and planning. I'm enthusiastic about her opinions about bikes and development. She narrowly missed a seat in the last Council race by just a couple hundred votes. I think she'll do a great job on the Council.
+* Melissa Fox; [website](https://votemelissafox.com/), Democratic Foundation endorsement. I've spoken to her when she hosted an event in Uni Hills a couple years ago and I was impressed by her knowledge of Irvine's history and planning. I'm enthusiastic about her opinions about bikes and development. She narrowly missed a seat in the last Council race by just a couple hundred votes. I think she'll do a great job on the Council.
 * Shiva Farivar
 
 I really want to see Melissa Fox on the Council. I think Christina Shea is likely to be re-elected. Therefore, I'm planning to vote only for Fox, to avoid helping any of the other candidates edge her out. I haven't done any other research for this race. Khan was recently the target of some [unreasonable, illegal, and anonymous yard signs](http://www.orangejuiceblog.com/2016/10/illegal-or-worse-and-racist-signs-attacking-two-council-candidates-appear-on-irvine-streets/) and I'd support her on that basis alone.
