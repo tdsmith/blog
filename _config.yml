@@ -5,7 +5,7 @@ permalink: /:year/:month/:title/
 
 gems: [jekyll-paginate, jekyll-gist]
 
-theme:
+my_theme:
   title: Biotimylated
   gravatar: d2924b4279838986048c7a7d52707d18
   description: Tim D. Smith's blog
