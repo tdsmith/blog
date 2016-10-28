@@ -13,6 +13,8 @@ Before continuing with this blog post, I recommend implementing and playing with
 
 Looking for a slightly taller hill to climb, I found [an old paper](/img/eeniemeeny.pdf) [[source]](http://dl.acm.org/citation.cfm?id=234880) by Lawrence A. Coon with iteratively more complex sample languages designed for a compiler design lab class. This post will be about my experience with his `eenie` language.
 
+NB: Josh Sharp wrote [a very helpful introduction](http://joshsharp.com.au/blog/view/rpython-rply-interpreter-1) that covers some of the same ground!
+
 ## Lexing eenie
 
 I started writing the front-end for eenie by building the lexer. The `eenie` lexer is morally similar to the calculator lexer with a couple of key differences:
