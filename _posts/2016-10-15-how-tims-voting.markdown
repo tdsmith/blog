@@ -66,6 +66,8 @@ Nobody seems to have a beef with the incumbents. Has controversy ever visited th
 
 __Update__: The [Irvine candidate's forum](https://www.youtube.com/watch?v=F_C_w9yyp_s) was posted to YouTube.
 
+__Update__: Check out [these interviews at Ask A Leader](http://askaleader.com/?page_id=25) from KUCI!
+
 I'm skeptical about all of these candidates. I do not understand the hysteria about growth and traffic that seems to be sweeping Irvine. The traffic's fine. Growth can be healthy.
 
 Understand while evaluating candidates that "Irvine Community News & Views" is a fake newspaper run by Larry Agran lieutenants. "Irvine City News" is likewise a threadbare Republican organ. You might, like me, find this deception upsetting.
@@ -99,6 +101,8 @@ Vote for no more than 2 of:
 * Shiva Farivar
 
 __Update__: The [Irvine candidate's forum](https://www.youtube.com/watch?v=F_C_w9yyp_s) was posted to YouTube.
+
+__Update__: Check out [these interviews at Ask A Leader](http://askaleader.com/?page_id=25) from KUCI!
 
 I really want to see Melissa Fox on the Council. I think Christina Shea is likely to be re-elected. Therefore, I'm planning to vote only for Fox, to avoid helping any of the other candidates edge her out. I haven't done any other research for this race. Khan was recently the target of some [unreasonable, illegal, and anonymous yard signs](http://www.orangejuiceblog.com/2016/10/illegal-or-worse-and-racist-signs-attacking-two-council-candidates-appear-on-irvine-streets/) and I'd support her on that basis alone.
 
