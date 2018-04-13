@@ -119,10 +119,12 @@ But these were the ones that you couldn't have seen before yesterday!
 
 ### Noncompliance already visible from previously logged certificates
 
-* The [HydrantID SSL ICA G2](https://crt.sh/?caid=1483&opt=cablint,zlint)
+* ~~The [HydrantID SSL ICA G2](https://crt.sh/?caid=1483&opt=cablint,zlint)
   CA is trusted by Mozilla (via QuoVadis) for TLS authentication, but issues
   certs intended for IPSEC and which lack serverAuth and clientAuth EKU values,
-  which are not BR-compliant (7.1.2.3.f).
+  which are not BR-compliant (7.1.2.3.f).~~ These certificates are compliant;
+  zlint was [reporting them incorrectly](https://github.com/zmap/zlint/pull/218).
+  I regret the error.
 * Digicert has issued certificates with [underscores in DNS names](https://groups.google.com/d/msg/mozilla.dev.security.policy/Cyyyjdf_t2Q/rBRBrLYLEQAJ)
 * Microsoft's CA software inserts trailing NULs in the CPSuri field
   and fails to flag the KeyUsage extension as critical.
