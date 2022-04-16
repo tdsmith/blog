@@ -42,7 +42,7 @@ wildest dreams, this bot will help demonstrate to our leaders that
 there's a demand for improving the quality of this data. If you like it,
 let them know!
 
-# How many people have COVID?
+## How many people have COVID?
 
 Right now, it's very hard to understand how many people in BC currently
 have COVID and how quickly that's changing.
@@ -81,7 +81,7 @@ test regularly or recruiting people going about their daily lives for a
 quick swab, but most governments don't seem to feel this is an effective
 use of public health staffing and laboratory resources.
 
-# Wastewater sampling
+## Wastewater sampling
 
 Another approach that comes close to our ideal for assessing infectious
 disease prevalence is wastewater sampling, which avoids sampling bias
@@ -111,7 +111,7 @@ by the total volume of flows passing through the plant each day yields a
 daily COVID copy count, which removes the effect of dilution from other
 sources.
 
-# Metro Vancouver
+## Metro Vancouver
 
 Metro Vancouver is a regional district of BC which delivers services to
 the Lower Mainland, including water and sewerage. Metro Vancouver has been
@@ -144,7 +144,7 @@ better wastewater data from Metro Vancouver and BCCDC!) but I do know
 how to make a plot.
 Let's see if we can make the data we _do_ have easier to interpret.
 
-# Finding the plot
+## Finding the plot
 
 The first challenge: can we get the data in order to plot it?
 Pleasantly, Metro Vancouver's plots page uses dynamic plots, which
