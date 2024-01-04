@@ -95,15 +95,15 @@ For both options 2 and 3, it's awkward that `MyMixin` acquires responsibility fo
 
 `__reduce__` is expected to return a weird tuple, of length between 2 and 6. Quoting the pickle docs for each member, with annotations:
 
-> 1. A callable object that will be called to create the initial version of the object.
+> 1&nbsp;. A callable object that will be called to create the initial version of the object.
 
 This is usually `object.__new__`. That'll work for us.
 
-> 2. A tuple of arguments for the callable object. An empty tuple must be given if the callable does not accept any argument.
+> 2&nbsp;. A tuple of arguments for the callable object. An empty tuple must be given if the callable does not accept any argument.
 
 `object.__new__` receives the type of the object to create. We can use `(type(self),)`.
 
-> 3. Optionally, the object’s state, which will be passed to the object’s [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method as previously described.
+> 3&nbsp;. Optionally, the object’s state, which will be passed to the object’s [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method as previously described.
 
 __This is effectively where we override `__getstate__`.__ The object's state is held in `self.__dict__`, and in any slots on either this type or its children. If we assume that all slotted children are attrs classes, we'll know that know that any subtypes that use slots will have a customized `__getstate__()` method.
 
@@ -112,15 +112,15 @@ What we can do is:
 - Otherwise, grab the instance `__dict__`.
 - Add any state specific to the slots of the base class.
 
-> 4. Optionally, an iterator (and not a sequence) yielding successive items. These items will be appended to the object either using obj.append(item) or, in batch, using obj.extend(list_of_items).
+> 4&nbsp;. Optionally, an iterator (and not a sequence) yielding successive items. These items will be appended to the object either using obj.append(item) or, in batch, using obj.extend(list_of_items).
 
 We don't care about this; we can set it to `None`.
 
-> 5. Optionally, an iterator (not a sequence) yielding successive key-value pairs. These items will be stored to the object using obj[key] = value.
+> 5&nbsp;. Optionally, an iterator (not a sequence) yielding successive key-value pairs. These items will be stored to the object using obj[key] = value.
 
 We don't care about this; we can set it to `None`.
 
-> 6. Optionally, a callable with a (obj, state) signature. This callable allows the user to programmatically control the state-updating behavior of a specific object, instead of using obj’s static [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method. If not None, this callable will have priority over obj’s [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__).
+> 6&nbsp;. Optionally, a callable with a (obj, state) signature. This callable allows the user to programmatically control the state-updating behavior of a specific object, instead of using obj’s static [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__) method. If not None, this callable will have priority over obj’s [`__setstate__()`](https://docs.python.org/3/library/pickle.html#object.__setstate__).
 
 __This is where we override `__setstate__`.__ We get to provide a callable that accepts a brand new instance of the class, and feeds it the state that the instance needs to contain.
 
